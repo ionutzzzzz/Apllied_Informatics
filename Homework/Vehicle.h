@@ -1,34 +1,35 @@
+#pragma once
+
 #include "Engine.h"
 
 class Vehicle {
 public:
 	string name;
 
-	void DisplayName() {
-		cout << "Vehicle name: " << this->name << "\n";
-	}
-
-protected:
-	Engine engine;
-	string color;
-	int year;
-	
 	Vehicle() {
 		this->engine = Engine(0, 0);
+		this->name = "";
 		this->color = "";
 		this->year = 0;
-		this->name = "";
 	}
 
-	Vehicle(string _name, string _color, int _year, int _horsepower, int _cylinders) {
+	Vehicle(string _name, int _horsepower, int _cylinders) {
 		this->engine = Engine(_horsepower, _cylinders);
 		this->name = _name;
+	}
+
+	Vehicle(string _color, int _year, int _horsepower, int _cylinders) {
+		this->engine = Engine(_horsepower, _cylinders);
 		this->color = _color;
 		this->year = _year;
 	}
 
 	~Vehicle() {
-		delete this;
+		cout << "Deleting the vehicle\n";
+	}
+
+	void DisplayName() {
+		cout << "Vehicle name: " << this->name << "\n";
 	}
 
 	void DisplayColor() {
@@ -38,4 +39,9 @@ protected:
 	void DisplayYear() {
 		cout << "Vehicle year: " << this->year << "\n";
 	}
+
+protected:
+	Engine engine;
+	string color;
+	int year;
 };

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 using std::cout;
 using std::string;
@@ -13,18 +15,16 @@ public:
 		cout << "Engine created with default constructor.\n";
 	}
 
-	Engine(int _horsepower, int _cylinders) {
-		this->horsepower = _horsepower;
-		this->cylinders = _cylinders;
+	Engine(int _horsepower, int _cylinders)
+		: horsepower(_horsepower), cylinders(_cylinders) {
 		cout << "Engine created with: " << _horsepower << " horsepower and " << _cylinders << " cylinders\n";
 	}
 
 	~Engine() {
 		cout << "Engine destroyed.\n";
-		delete this;
 	}
 
-	void Info() {
-		cout << "Engine has " << this->horsepower << " horsepower and " << this->cylinders << " cylinders\n";
+	void DisplayEngine() {	
+		cout << "Engine has " << horsepower << " horsepower and " << cylinders << " cylinders\n";
 	}
 };
