@@ -6,6 +6,7 @@
 #include "Bus.h"
 #include "Brand.h"
 #include "Engine.h"
+#include "PublicBus.h"
 
 using namespace std;
 
@@ -39,6 +40,14 @@ int main() {
 	brand.DisplayName();
 	brand.DisplayCountry();
 	brand.DisplayFounder();
+	cout << "\n";
+
+
+	// Yes
+	cout << "De aici:\n";
+	PublicBus pbus("John", 30, 10);
+	cout << "\n";
+	pbus.ShowBusProperties();
 	cout << "\n";
 
 	return 0;

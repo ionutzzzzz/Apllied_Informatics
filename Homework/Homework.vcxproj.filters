@@ -35,5 +35,8 @@
     <ClInclude Include="Brand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PublicBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
