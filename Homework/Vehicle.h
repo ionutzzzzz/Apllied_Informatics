@@ -1,47 +1,54 @@
 #pragma once
 
 #include "Engine.h"
+#include "VehicleBase.h"
 
-class Vehicle {
+class Vehicle : public VehicleBase {
 public:
-	string name;
+   Vehicle() : VehicleBase() {
+       this->engine = Engine(0, 0);
+       this->color = "";
+       this->year = 0;
+   }
 
-	Vehicle() {
-		this->engine = Engine(0, 0);
-		this->name = "";
-		this->color = "";
-		this->year = 0;
-	}
+   Vehicle(string _name, int _horsepower, int _cylinders)
+       : VehicleBase(_name) {
+       this->engine = Engine(_horsepower, _cylinders);
+   }
 
-	Vehicle(string _name, int _horsepower, int _cylinders) {
-		this->engine = Engine(_horsepower, _cylinders);
-		this->name = _name;
-	}
+   Vehicle(string _color, int _year, int _horsepower, int _cylinders)
+       : VehicleBase() {
+       this->engine = Engine(_horsepower, _cylinders);
+       this->color = _color;
+       this->year = _year;
+   }
 
-	Vehicle(string _color, int _year, int _horsepower, int _cylinders) {
-		this->engine = Engine(_horsepower, _cylinders);
-		this->color = _color;
-		this->year = _year;
-	}
+   Vehicle(const std::string& vehicleName)
+       : VehicleBase(vehicleName) {
+   }
 
-	~Vehicle() {
-		cout << "Deleting the vehicle\n";
-	}
+   virtual ~Vehicle() override {
+       cout << "Deleting the vehicle\n";
+   }
 
-	void DisplayName() {
-		cout << "Vehicle name: " << this->name << "\n";
-	}
+   virtual void DisplayName() override {
+       cout << "Vehicle name: " << name << "\n";
+   }
 
-	void DisplayColor() {
-		cout << "Vehicle color: " << this->color << "\n";
-	}
+   virtual void DisplayColor() {
+       cout << "Vehicle color: " << this->color << "\n";
+   }
 
-	void DisplayYear() {
-		cout << "Vehicle year: " << this->year << "\n";
-	}
+   virtual void DisplayYear() {
+       cout << "Vehicle year: " << this->year << "\n";
+   }
+
+   void makeSound() override {
+       std::cout << "Vroom vroom!\n";
+   }
 
 protected:
-	Engine engine;
-	string color;
-	int year;
+   Engine engine;
+   string color;
+   int year;
 };

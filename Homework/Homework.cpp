@@ -8,11 +8,13 @@
 #include "Engine.h"
 #include "PublicBus.h"
 
+#include "VehicleBase.h"
+
 using namespace std;
 
 int main() {
 	
-	Engine engine(150, 4);
+	/*Engine engine(150, 4);
 	cout << "\n";
 	engine.DisplayEngine();
 	cout << "\n";
@@ -43,12 +45,37 @@ int main() {
 	cout << "\n";
 
 
-	// Yes
 	cout << "De aici:\n";
 	PublicBus pbus("John", 30, 10);
 	cout << "\n";
 	pbus.ShowBusProperties();
-	cout << "\n";
+	cout << "\n";*/
+
+
+	cout << "\nPolimorfism static:\n";
+	cout << "----------------------------------------\n";
+	VehicleBase::Process(42); 
+	VehicleBase::Process("Luxury Car");
+	VehicleBase::Process(1, "Sport Car");
+
+	cout << "\nPolimorfism dinamic:\n";
+	cout << "----------------------------------------\n";
+	Vehicle* vehicles[3];
+
+	vehicles[0] = new Vehicle("Generic Vehicle");
+	vehicles[1] = new Car(std::string("Sports Car"));
+	vehicles[2] = new Car(std::string("Family Car"));
+
+	cout << "Each vehicle makes its unique sound:\n";
+	for (int i = 0; i < 3; i++) {
+		vehicles[i]->DisplayName();
+		vehicles[i]->makeSound();
+		cout << "----------------------------------------\n";
+	}
+
+	for (int i = 0; i < 3; i++) {
+		delete vehicles[i];
+	}
 
 	return 0;
 }

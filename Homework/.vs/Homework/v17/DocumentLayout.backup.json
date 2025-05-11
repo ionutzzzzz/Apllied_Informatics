@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|solutionrelative:Homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\PublicBus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|solutionrelative:PublicBus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Bus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|solutionrelative:Bus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Brand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|solutionrelative:Brand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|solutionrelative:Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{169B4233-B72E-42FF-A4CC-93C8243922E4}|Homework.vcxproj|C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,58 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PublicBus.h",
-              "DocumentMoniker": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\PublicBus.h",
-              "RelativeDocumentMoniker": "PublicBus.h",
-              "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\PublicBus.h",
-              "RelativeToolTip": "PublicBus.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-15T06:26:51.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bus.h",
-              "DocumentMoniker": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Bus.h",
-              "RelativeDocumentMoniker": "Bus.h",
-              "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Bus.h",
-              "RelativeToolTip": "Bus.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-11T21:38:42.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Brand.h",
-              "DocumentMoniker": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Brand.h",
-              "RelativeDocumentMoniker": "Brand.h",
-              "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Brand.h",
-              "RelativeToolTip": "Brand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-11T21:43:26.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Car.h",
               "DocumentMoniker": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Car.h",
               "RelativeDocumentMoniker": "Car.h",
               "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Car.h",
               "RelativeToolTip": "Car.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-11T19:52:35.272Z"
+              "WhenOpened": "2025-05-11T11:53:13.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.h",
+              "DocumentMoniker": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Vehicle.h",
+              "RelativeDocumentMoniker": "Vehicle.h",
+              "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Vehicle.h",
+              "RelativeToolTip": "Vehicle.h",
+              "ViewState": "AgIAABEAAAAAAAAAAADgvyEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T11:49:48.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -91,7 +58,7 @@
               "RelativeDocumentMoniker": "Homework.cpp",
               "ToolTip": "C:\\Users\\John\\Documents\\GitHub\\Apllied_Informatics\\Homework\\Homework.cpp",
               "RelativeToolTip": "Homework.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-11T19:08:08.022Z",
               "EditorCaption": ""
